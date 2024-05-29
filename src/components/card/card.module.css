@@ -1,0 +1,36 @@
+.cardContainer {
+    width: 357px;
+    min-height: 314px;
+    background: #fff;
+    padding: 24px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.userName {
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.userInfo span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #8189a3;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.phoneIcon {
+    margin: 0 15px 0 5px;
+}
+
+.emailIcon {
+    margin-right: 10px;
+}
